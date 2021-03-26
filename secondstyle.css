@@ -38,13 +38,13 @@ body{
     
 }
 
-h2,h4{
+h1{
     background-color: transparent;
     font-family: 'Akaya Telivigala', cursive;
     
 }
 
-h4{
+.content{
     padding-left:10%;
     padding-right:10%;
     padding-top: 5%;
