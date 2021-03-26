@@ -1,0 +1,161 @@
+<!-- {% load static %} -->
+<!doctype html>
+<html lang="en">
+    
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="css/bootstrap.min" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Pageant Pencil</title>
+  </head>
+  
+  <body>
+      
+<!--{%block content%}  -->
+        <h1 class="logo">Pageant Pencil</h1>
+        <div class="top"></div>
+        <nav>
+            <div class="nav nav-tabs justify-content-end" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-poem-tab" data-bs-toggle="tab" data-bs-target="#nav-poem" type="button" role="tab" aria-controls="nav-poem" aria-selected="true"><h2> Poems </h2></button>
+            <button class="nav-link" id="nav-quote-tab" data-bs-toggle="tab" data-bs-target="#nav-quote" type="button" role="tab" aria-controls="nav-quote" aria-selected="false"><h2> Quotes </h2></button>
+            
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-poem" role="tabpanel" aria-labelledby="nav-poem-tab">
+                <div class="poem-area">
+
+
+                    <div class="left">
+                        <div class="container bootstrap snippets bootdey">
+                            <br><br>
+                            <div class="row">
+    
+                                <div class="col-md-6">
+                                    <a href="poem.html" class="widget widget-image">
+                                        <div class="widget-image-cover">
+                                            <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/325466_1100-1100x628.jpg" alt="">
+                                        </div>
+                                        <div class="widget-image-info">
+                                            <h2>title</h2>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="right">
+                        
+                        <div class="container bootstrap snippets bootdey">
+                        
+                            <div class="row">
+                                <div class="col-md-6">
+                                <!--this div is to right align this post-->
+                                </div>
+                                <div class="col-md-6">
+                                    
+                                    <a href="poem.html" class="widget widget-image">
+                                        <div class="widget-image-cover">
+                                            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg?crop=0.666xw:1.00xh;0.168xw,0&resize=640:*" alt="">
+                                        </div>
+                                        <div class="widget-image-info">
+                                            <h2>title</h2>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="nav-quote" role="tabpanel" aria-labelledby="nav-quote-tab">
+                
+                <div class="quote-area">
+                    <div class="left">
+                        <div class="container bootstrap snippets bootdey">
+                            <br><br>
+                            <div class="row">
+    
+                                <div class="col-md-6">
+                                    <div class="widget widget-image">
+                                        <div class="widget-image-cover">
+                                            <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/325466_1100-1100x628.jpg" alt="">
+                                        </div>
+                                        <div class="widget-image-info">
+                                            <h2>.................................................................................................quoteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee................quoteeeeeeeeeeee................</h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="right">
+                        
+                        <div class="container bootstrap snippets bootdey">
+                        
+                            <div class="row">
+                                <div class="col-md-6">
+                                <!--this div is to right align this post-->
+                                </div>
+                                <div class="col-md-6">
+                                    
+                                    <div class="widget widget-image">
+                                        <div class="widget-image-cover">
+                                            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg?crop=0.666xw:1.00xh;0.168xw,0&resize=640:*" alt="">
+                                        </div>
+                                        <div class="widget-image-info">
+                                            <h2>....................quoteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee................quoteeeeeeeeeeee................</h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+
+    
+    <ul>
+    <!-- {%for post in object_list %}
+        {% ifequal post.language "Hindi"  %}
+        <li><a href="{% url 'post-detail' post.pk %}">{{post.title}}</a> - {{post.author.first_name}}<br/>
+        {{post.body}} <img src="{{ post.image.url }}" width=50%></li>
+        {% endifequal %}
+    
+    {% endfor %}
+    <ul>
+{% endblock %} -->
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min" ></script>
+
+    
+  </body>
+</html>

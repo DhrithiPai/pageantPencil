@@ -1,0 +1,139 @@
+.logo{
+    font-family: 'Redressed', cursive;
+    color: white;
+    padding-left: 10vh; 
+    padding-top: 5vh;
+    padding-bottom: 0px;
+    background-color:#557174;
+    margin-bottom: 0px;
+}
+*{
+    background-color: #C7CFB7;
+    word-wrap:break-word;
+    
+}
+
+
+
+button {
+    width: 50vh;
+    
+}
+.nav button:hover{
+    border: none;
+    
+    
+}
+h2{
+    background-color: transparent;
+    font-family: 'Akaya Telivigala', cursive;
+    
+}
+.nav
+{
+	
+	background-color:#557174;
+    padding: 5px 5px 0 5px;
+	
+	font-family: 'Akaya Telivigala', cursive;
+}
+div.top{
+
+    background-color:#557174;
+    height:80%;
+
+}
+
+
+.widget.widget-image {
+    overflow: hidden;
+}
+
+.widget {
+    border: none;
+    box-shadow: 0 2px 0 rgba(0,0,0,.07);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    background: black;
+    padding: 20px;
+    display: block;
+    
+}
+
+.widget-image-cover {
+    margin: -20px;
+    padding: 40% 10% 20%;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #C7CFB7;
+    position: relative;
+    
+}
+.quote-area{
+    padding-top:0px;
+
+}
+
+
+.widget-image:hover .widget-image-cover img {
+    max-width: 110%;
+    min-height: 110%;
+    margin-left: -5%;
+    margin-top: -5%;
+}
+
+.widget-image .widget-image-cover img {
+    transition: all .4s ease-in-out;
+}
+
+
+.widget-image-cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 50%;
+    max-width: 100%;
+}
+
+.widget-image-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 75%);
+    padding: 20px;
+    color: #fff;
+}
+
+
+
+.row {
+    margin: 0 -10px;
+}
+
+.row>[class*=col-] {
+    padding: 0 10px;
+}
+.right,.left{
+    padding:0px 0px;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .logo {
+      text-align: center;
+      padding-left: 0%;
+      padding-bottom: 3%;
+    }
+    button {
+        width: 50%;
+        
+    }
+  }
