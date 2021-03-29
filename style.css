@@ -127,8 +127,10 @@ div.top{
     font-size: 30px;
     color: black;
     margin-bottom: 0px;
+    
 }
 footer{
+    margin-left: 0px;
     text-align: center;
     padding-top: 2%;
 }
@@ -148,5 +150,8 @@ i:hover{
     button {
         width: 50%;
         
+    }
+    footer{
+        padding-right: 10%;
     }
   }
