@@ -123,6 +123,19 @@ div.top{
     padding:0px 0px;
 }
 
+.insta{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0px;
+}
+footer{
+    text-align: center;
+    padding-top: 2%;
+}
+
+i:hover{
+    cursor: pointer;
+}
 
 
 
