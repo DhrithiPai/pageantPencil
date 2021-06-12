@@ -1,9 +1,9 @@
 *{
-    background-color: #C7CFB7;
+    background-color: #126e82;
     word-wrap:break-word;
     height: auto;
     margin-bottom: 0px;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Indie Flower', cursive;
     
 }
 body{
@@ -34,14 +34,14 @@ body{
     padding: 5% 1% 5%;
     border-radius: 5px;
     overflow: hidden;
-    background: #C7CFB7;
+    background: #126e82;
     position: relative;
     
 }
 
 h1{
     background-color: transparent;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Indie Flower', cursive;
     
 }
 
@@ -55,10 +55,12 @@ h1{
     -moz-border-radius: 5px;
     border-radius: 5px;
     
-    background-color: #F7F7E8;
+    background-color: #ffeedb;
     
 }
-
+pre{
+    background-color: #ffeedb;
+}
 
 .widget-image-cover img {
     position: absolute;
@@ -93,7 +95,7 @@ h1{
     height:auto;
     width:auto;
     /* overflow: scroll; */
-    background-color:  #C7CFB7;
+    background-color:  #126e82;
     margin-top:0px;
     color:black;
     padding-left: 5% ;
@@ -122,7 +124,7 @@ body::-webkit-scrollbar-thumb {
   }
 
 .wrapper{
-    background-color:#C7CFB7 ;
+    background-color:#126e82 ;
     
     padding-left: 80%;
 }
@@ -168,18 +170,18 @@ top: 0;
 }
 
 .heart-checkbox:checked + .heart {
-color: rgb(206, 9, 9);
+color: #ff96ad;
 }
 
 .bottom{
     margin-right:0.05%;
     padding-top:2%;
-    background-color: #C7CFB7;
+    background-color: #126e82;
     
 }
 
 i{
-    background-color: #C7CFB7;
+    background-color: #126e82;
     
    
 }
@@ -202,7 +204,7 @@ i:hover{
 .share{
     font-size: 35px;
     margin:0px;
-    background-color: #C7CFB7;
+    background-color: #126e82;
     padding-left: 10%;
 
 }
