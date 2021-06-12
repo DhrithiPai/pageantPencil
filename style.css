@@ -1,14 +1,17 @@
 .logo{
-    font-family: 'Redressed', cursive;
+    /* font-family: 'Lobster Two', cursive; */
+    font-family: 'Charmonman', cursive;
+    
+    
     color: white;
     padding-left: 10vh; 
     padding-top: 5vh;
     padding-bottom: 0px;
-    background-color:#557174;
+    background-color:#126e82;
     margin-bottom: 0px;
 }
 *{
-    background-color: #C7CFB7;
+    background-color: #ffeedb;
     word-wrap:break-word;
     
 }
@@ -26,20 +29,21 @@ button {
 }
 h2{
     background-color: transparent;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
     
 }
 .nav
 {
 	
-	background-color:#557174;
+	background-color:#126e82;
     padding: 5px 5px 0 5px;
 	
 	font-family: 'Akaya Telivigala', cursive;
 }
 div.top{
 
-    background-color:#557174;
+    background-color:#126e82;
     height:80%;
 
 }
@@ -68,7 +72,7 @@ div.top{
     padding: 40% 10% 20%;
     border-radius: 5px;
     overflow: hidden;
-    background: #C7CFB7;
+    background: #ffeedb;
     position: relative;
     
 }
